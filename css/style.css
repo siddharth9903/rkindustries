@@ -513,6 +513,10 @@ a:hover {
     font-weight: bold;
 }
 
+.text_black{
+    color: #ffffff !important;
+}
+
 .banner_taital_container{
     margin-top: 50px;
 }
