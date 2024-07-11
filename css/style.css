@@ -214,14 +214,34 @@ button {
 .banner_bg_main {
     width: 100%;
     float: left;
-    background-image: url(../images/industrial-yellow-orange-crane-wallpaper.jpg);
+    /* background-image: url(../images/industrial-yellow-orange-crane-wallpaper.jpg); */
+    background-image: url(../images/carasouel.jpg);
     height: auto;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.banner_taital_new {
+    color: black;
+    text-align: left;
+    /* width: 100%; */
+    height: 100%;
+    padding: 10px;
+    /* font-size: 60px; */
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
+
+/* .banner_taital {
+    width: 100%;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+} */
 /* banner bg main end */
 
 
@@ -487,10 +507,17 @@ a:hover {
 .banner_taital {
     width: 100%;
     font-size: 60px;
-    color: #ffffff;
-    text-align: center;
+    color: #000000;
+    text-align: left;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.banner_taital_container{
+    margin-top: 50px;
+}
+.text_less{
+    font-size: 30px;   
 }
 
 .buynow_bt {
