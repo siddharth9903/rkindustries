@@ -513,12 +513,12 @@ a:hover {
     text-transform: uppercase;
     font-weight: bold;
 }
-
 .whyus-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .quote {
@@ -530,12 +530,12 @@ a:hover {
     font-style: italic;
 }
 
-.margin-botton-not{
+.margin-bottom-not {
     margin-bottom: 0 !important;
 }
 
 .whyus-content {
-    width: 50%;
+    width: 40%;
     text-align: left;
 }
 
@@ -555,6 +555,23 @@ a:hover {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+}
+
+/* Checkmark class using Unicode character for a checkmark */
+.checkmark {
+    margin-right: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .quote, .whyus-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .quote {
+        margin-bottom: 20px;
+    }
 }
 
 .checkmark {
