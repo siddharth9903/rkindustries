@@ -200,8 +200,9 @@ button {
 }
 
 .layout_padding {
-    padding-top: 90px;
-    padding-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .padding_0 {
@@ -511,6 +512,62 @@ a:hover {
     text-align: left;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+.whyus-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.quote {
+    margin-top: 50px;
+    width: 40%;
+    font-size: 22px;
+    color: #fcfcfc;
+    text-align: left;
+    font-style: italic;
+}
+
+.margin-botton-not{
+    margin-bottom: 0 !important;
+}
+
+.whyus-content {
+    width: 50%;
+    text-align: left;
+}
+
+.whyus {
+    width: 100%;
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.whyus-row {
+    font-size: 20px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkmark {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    background: url('checkmark.png') no-repeat center center;
+    background-size: contain;
+}
+
+.margin10 {
+    margin: 10px;
 }
 
 .text_black{
